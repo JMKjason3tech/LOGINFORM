@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MY LOGIN FORM</title>
+    <style>
+    body {
+            margin: 0;
+}
+.login-container {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.login-form {
+    padding: 50px;
+    width: 270px;
+    margin-right: 70px;
+}
+.login-input {
+    margin: 10px 10px 10px 0;
+    color: rgb(183, 177, 177);
+}
+label {
+    display: block;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+input {
+    padding: 13px 7px;
+    border: none;
+    border-bottom: solid 1px;
+    width: 100%;
+    font-size: 16px;
+    border-color: rgb(234, 227, 227);
+}
+input:focus {
+    outline: 1.5px solid rgb(20, 165, 254);
+    border: none;
+}
+.login-button {
+    padding: 17px;
+    text-align: center;
+    width: 100%;
+    margin: 13px 0 13px 0;
+    color: white;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    font-size: 19px;
+    transition: background-color, color 0.2s;
+}
+.login-button:hover {
+    background-color: white;
+    color: rgb(255, 196, 0);
+    cursor: pointer;
+    border: solid 1px;
+    border-color: rgb(255, 196, 0);
+}
+.forgot-pwd {
+    color: black;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.forgot-pwd:hover {
+    color: rgb(255, 196, 0);
+}
+.account-registration {
+    margin-top: 60px;
+}
+.registration-link {
+    transition: text-decoration, color 0.2s;
+}
+.registration-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(255, 196, 0);
+}
+::placeholder {
+    color: rgb(182, 177, 177);
+}
+.image {
+    margin-left: 0;
+    width: 700px;
+    float: right;
+    margin-right: 0;
+    height: 445px;
+}
+.image-container {
+    margin: 3px;
+}
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Log in</h2>
+            <div class="login-input">
+                <label>Email</label>
+                <input type="email" placeholder="email@example.com">
+            </div>
+            <div class="login-input">
+                <label>Password</label>
+                <input type="password" placeholder="enter your password">
+            </div>
+            <button class="login-button">Login</button>
+            <a class="forgot-pwd">Forgot password?</a>
+                <p class="account-registration">Don't have an account? <span class="registration-link">Register here</span></p>
+        </div>
+        <div class="image-container">
+            <img src="background image.jpg" alt="a beautiful building image" class="image">
+        </div>
+    </div>
+</body>
+</html>
