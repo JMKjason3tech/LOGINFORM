@@ -1,12 +1,14 @@
-LOGIN FORM
+**LOGIN FORM - Beginner Project**
 
-This is a simple beginner-based login form, containing a combination of both html and css
+**Overview**
+A simple login form for beginners, built with HTML and CSS. This single-page project prompts users to enter their email and password, focusing on front-end design and styling.
 
-It displays:
+**Features**
+Input fields for email and password.
 
-A prompt to ask the user to enter his or her email and password.
+Interactive hover effects: "Login" button transitions from orange to white, and links like "Forgot password? and "Register here" follow a similar style but colors change from black to orange when hovered over.
 
-Its just a single web-page, for beginnner practice,
-and the buttons in the web page such as the login button which will confirm the user login credentials,
-does not load on another page, but only for css functionality, that is
-When you hover, the login button color changes to white and back to orange, same case to the other links
+No backend functionality; designed for CSS practice only.
+
+**Purpose**
+Ideal for learning HTML structure, CSS styling, and hover effects while creating a user-friendly login interface.
